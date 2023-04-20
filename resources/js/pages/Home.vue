@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        welcome, page visible for all user
+        welcome, page visible for all
     </div>
 </template>
 
