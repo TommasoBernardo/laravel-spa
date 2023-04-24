@@ -4,6 +4,8 @@ import Home from '../pages/Home';
 import Register from '../pages/Register';
 import Login from '../pages/Login';
 import Dashboard from '../pages/Dashboard';
+import Products from '../pages/Products';
+
 
 export const routes = [
     {
@@ -25,6 +27,11 @@ export const routes = [
         name: 'dashboard',
         path: '/dashboard',
         component: Dashboard
+    },
+    {
+        name: 'products',
+        path: '/products',
+        component: Products
     }
 ];
 

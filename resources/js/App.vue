@@ -22,6 +22,9 @@
                     <li class="nav-item">
                         <router-link to="/register" class="nav-link">Register</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link to="/products" class="nav-link">Products</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
