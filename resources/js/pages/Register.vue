@@ -8,14 +8,14 @@
                     <strong>{{ error }}</strong>
                 </div>
 
-                <div class="card card-default">
-                    <div class="card-header">
-                        <h5>Register New User</h5>
+                <div class="card card-default mt-5">
+                    <div class="card-header bg-dark">
+                        <h5 class="text-white">Register New User</h5>
                     </div>
                     <div class="card-body">
                         <form>
 
-                            <div class="form-group row">
+                            <div class="form-group row mb-3">
                                 <label for="name" class="col-sm-4 col-form-label text-md-right">Name</label>
                                 <div class="col-md-8">
                                     <input id="name" type="text" class="form-control" v-model="name" required autofocus
@@ -23,7 +23,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="form-group row mb-3">
                                 <label for="name" class="col-sm-4 col-form-label text-md-right">Surname</label>
                                 <div class="col-md-8">
                                     <input id="surname" type="text" class="form-control" v-model="surname" required
@@ -31,7 +31,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row mt-1">
+                            <div class="form-group row mt-1 mb-3">
                                 <label for="email" class="col-sm-4 col-form-label text-md-right">E-Mail Address</label>
                                 <div class="col-md-8">
                                     <input id="email" type="email" class="form-control" v-model="email" required autofocus
@@ -40,7 +40,7 @@
                             </div>
 
 
-                            <div class="form-group row mt-1">
+                            <div class="form-group row mt-1 mb-3">
                                 <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                                 <div class="col-md-8">
                                     <input id="password" type="password" class="form-control" v-model="password" required
