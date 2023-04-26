@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\ProductsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\API\UserController;
@@ -22,3 +23,5 @@ use App\http\Controllers\API\UserController;
 Route::post('login', [UserController::class, 'login']);
 Route::post('register', [UserController::class, 'register']);
 Route::post('logout', [UserController::class, 'logout'])->middleware('auth:sanctum');
+
+Route::get('/products', [ProductsController::class, 'index'])->name('api.products.index');
