@@ -24,4 +24,6 @@ Route::post('login', [UserController::class, 'login']);
 Route::post('register', [UserController::class, 'register']);
 Route::post('logout', [UserController::class, 'logout'])->middleware('auth:sanctum');
 
-Route::get('/products', [ProductsController::class, 'index'])->name('admin.products.index');
+Route::group(['prefix' => 'products', 'middleware' => 'auth:sanctum'], function () {
+    Route::get('/', [ProductsController::class, 'index']);
+});
