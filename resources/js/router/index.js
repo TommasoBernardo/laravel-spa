@@ -4,7 +4,9 @@ import Home from '../pages/Home';
 import Register from '../pages/Register';
 import Login from '../pages/Login';
 import Dashboard from '../pages/Dashboard';
-import Products from '../pages/Products';
+import Products from '../components/Products';
+import EditProducts from '../components/EditProducts';
+import AddProducts from '../components/AddProducts';
 
 
 export const routes = [
@@ -32,6 +34,16 @@ export const routes = [
         name: 'products',
         path: '/products',
         component: Products
+    },
+    {
+        name: 'addproducts',
+        path: '/products/add',
+        component: AddProducts
+    },
+    {
+        name: 'editproducts',
+        path: '/products/edit/:id',
+        component: EditProducts
     }
 ];
 
