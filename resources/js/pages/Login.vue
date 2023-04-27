@@ -2,7 +2,7 @@
     <div class="container-fluid bg-login bg-style">
         <div class="row justify-content-center">
             <div class="col-6 ">
-                <div v-if="error !== null" class="alert     alert-danger alert-dismissible fade show" role="alert">
+                <div v-if="error !== null" class="alert alert-danger alert-dismissible fade show" role="alert">
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 
                     <strong>{{ error }}</strong>
