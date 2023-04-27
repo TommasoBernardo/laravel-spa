@@ -60,7 +60,7 @@
                                 <div class="col-md-8 offset-md-4">
                                     <small class="text-muted">
                                         Have an account? Please
-                                        <router-link to="/login">login</router-link>
+                                        <router-link to="/">login</router-link>
                                     </small>
                                 </div>
                             </div>

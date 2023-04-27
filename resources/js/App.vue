@@ -11,8 +11,7 @@
                 <a class="nav-item nav-link" style="cursor: pointer;" @click="logout">Logout</a>
             </div>
             <div class="navbar-nav" v-else>
-                <router-link to="/" class="nav-item nav-link">Home</router-link>
-                <router-link to="/login" class="nav-item nav-link">Login</router-link>
+                <router-link to="/" class="nav-item nav-link">Login</router-link>
                 <router-link to="/register" class="nav-item nav-link">Register</router-link>
             </div>
         </nav>

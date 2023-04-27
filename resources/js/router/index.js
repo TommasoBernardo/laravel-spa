@@ -1,7 +1,7 @@
 
 import { createWebHistory, createRouter } from "vue-router";
 
-import Home from '../pages/Home';
+
 import Register from '../pages/Register';
 import Login from '../pages/Login';
 import Dashboard from '../pages/Dashboard';
@@ -10,11 +10,7 @@ import EditPost from '../components/EditPost';
 import AddPost from '../components/AddPost';
 
 export const routes = [
-    {
-        name: 'home',
-        path: '/',
-        component: Home
-    },
+
     {
         name: 'register',
         path: '/register',
@@ -22,7 +18,7 @@ export const routes = [
     },
     {
         name: 'login',
-        path: '/login',
+        path: '/',
         component: Login
     },
     {
