@@ -24025,7 +24025,7 @@ var _hoisted_1 = {
   "class": "container"
 };
 var _hoisted_2 = {
-  "class": "row jutify-content-center"
+  "class": "row justify-content-center"
 };
 var _hoisted_3 = {
   "class": "col-md-8"
@@ -24145,7 +24145,7 @@ var _hoisted_1 = {
   "class": "container"
 };
 var _hoisted_2 = {
-  "class": "row jutify-content-center"
+  "class": "row justify-content-center"
 };
 var _hoisted_3 = {
   "class": "col-md-8"
