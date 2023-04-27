@@ -99,11 +99,3 @@ export default {
 }
 </script>
 
-
-<style>
-.bg-style {
-    width: 100vw;
-    height: 100vh;
-    background-color: #5b48be;
-}
-</style>
