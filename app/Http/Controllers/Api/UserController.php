@@ -43,25 +43,8 @@ class UserController extends Controller
                 'name' => ['string', 'min:3', 'nullable', 'max:255'],
                 'surname' => ['string', 'min:3', 'nullable', 'max:150'],
                 'email' => ['required', 'string', 'email', 'min:8', 'max:255', 'unique:' . User::class],
-                'password' => ['required', 'confirmed']
+                'password' => ['required', 'confirmed', 'min:8']
             ],
-            [
-                'name.string' => 'Si accettano solo lettere',
-                'name.min' => 'Inserire minimo 3 caratteri ',
-                'name.max' => 'Inserire massimo 255 caratteri',
-                'surname.string' => 'Si accettano solo lettere',
-                'surname.min' => 'Inserire minimo 3 caratteri ',
-                'surname.max' => 'Inserire massimo 150 caratteri',
-                'date_of_birth.date' => 'Inserire una data valida',
-                'email.required' => 'Email obbligatorio',
-                'email.email' => 'Inserire un email valida',
-                'email.unique' => 'Email gia presente',
-                'email.min' => 'Inserire minimo 8 caratteri',
-                'email.max' => 'Inserire massimo 255 caratteri',
-                'password.required' => 'Password obbligatoria',
-                'password.confirmed' => 'Password diversa'
-
-            ]
         );
         try {
             $user = new User();
