@@ -1,5 +1,6 @@
 <template lang="">
-    <div class="card">
+    <div class="container">
+        <div class="card mt-5">
         <div class="card-body">
             <div class="d-flex justify-content-between pb-2 mb-2">
                 <h5 class="card-title"> Add new Product</h5>
@@ -46,6 +47,8 @@
             </form>
         </div>
     </div>
+    </div>
+
 </template>
 
 <script>

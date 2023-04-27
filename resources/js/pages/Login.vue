@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid bg-login bg-style">
+    <div class="container bg-login bg-style">
         <div class="row justify-content-center">
             <div class="col-6 ">
                 <div v-if="error !== null" class="alert alert-danger alert-dismissible fade show" role="alert">
