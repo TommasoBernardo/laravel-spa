@@ -9,7 +9,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
 
                 <div class="navbar-nav" v-if="isLoggedIn">
-                    <router-link to="/dashboard">dashboard</router-link>
+                    <router-link to="/dashboard" class="nav-item nav-link">dashboard</router-link>
+                    <router-link to="/products" class="nav-item nav-link">Products</router-link>
                     <a class="nav-item nav-link" @click="logout">Logout</a>
                 </div>
                 <ul class="navbar-nav" v-else>
@@ -21,9 +22,6 @@
                     </li>
                     <li class="nav-item">
                         <router-link to="/register" class="nav-link">Register</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link to="/products" class="nav-link">Products</router-link>
                     </li>
                 </ul>
             </div>
