@@ -26,4 +26,5 @@ Route::post('logout', [UserController::class, 'logout'])->middleware('auth:sanct
 
 Route::group(['prefix' => 'products', 'middleware' => 'auth:sanctum'], function () {
     Route::get('/', [ProductsController::class, 'index']);
+    Route::get('add', [ProductsController::class, 'add']);
 });
